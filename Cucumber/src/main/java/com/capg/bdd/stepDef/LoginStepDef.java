@@ -33,6 +33,7 @@ public class LoginStepDef extends LoginPage {
 	public void user_is_on_login_page() throws Throwable {
 		
 		login.loadPage();
+		System.out.println("testing jenkins");
 	
 	}
 
